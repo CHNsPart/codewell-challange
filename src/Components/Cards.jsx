@@ -11,10 +11,10 @@ export const Cards = ({link, paragraph, title}) => {
           width={300}
           height={300}
         />
-        <h1 className='py-4 text-2xl font-bold flex-nowrap w-full'>
+        <h1 className='py-4 text-2xl lg:text-4xl font-bold flex-nowrap w-full'>
          {title} →
         </h1>
-        <p className='text-left text-white/60 w-full'>
+        <p className='text-left text-white/60 w-full text-sm lg:text-lg'>
           {paragraph}
         </p>
       </div>
